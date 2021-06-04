@@ -35,7 +35,6 @@ MIT
 # Deployment
 [Link]()
 
-Add screenShot
 # Preview of the App
 * This is how the app looks
-![15_Progressive_Budget Screenshot]()
+![15_Progressive_Budget Screenshot](./Budget.PNG)

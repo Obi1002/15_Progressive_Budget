@@ -2,14 +2,13 @@ const FILES_TO_CACHE = [
     '/index.html',
     '/favicon.ico',
     '/manifest.webmanifest',
-    '/dist/index.js',
-    '/dist/style.css',
-    '/dist/db.js',
+    '/index.js',
+    '/style.css',
+    '/db.js',
 ];
 
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
-
 
 self.addEventListener("install", function (evt) {
     evt.waitUntil(

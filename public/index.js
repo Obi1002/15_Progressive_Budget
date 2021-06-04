@@ -8,7 +8,7 @@ fetch("/api/transaction")
   .then(data => {
     // save db data on global variable
     transactions = data;
-
+    console.log(data)
     populateTotal();
     populateTable();
     populateChart();
@@ -61,8 +61,8 @@ function populateChart() {
   if (myChart) {
     myChart.destroy();
   }
-
-  let ctx = document.getElementById("myChart").getContext("2d");
+  let thing = document.getElementById("myChart")
+  let ctx = thing.getContext("2d");
 
   myChart = new Chart(ctx, {
     type: 'line',
