@@ -23,7 +23,7 @@ WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
 # Installation
-<!-- In order to use this app, you will need to use the Mongo database with a Mongoose schema and handle routes with Express. -->
+In order to use this app, you will need to use the Mongo database with a Mongoose schema.
 
 # Project Status
 This project was completed on June 5, 2021. 
